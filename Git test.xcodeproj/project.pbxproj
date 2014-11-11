@@ -15,6 +15,7 @@
 		876A952A1A1255580019A21F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876A95291A1255580019A21F /* Images.xcassets */; };
 		876A952D1A1255580019A21F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876A952B1A1255580019A21F /* LaunchScreen.xib */; };
 		876A95391A1255580019A21F /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876A95381A1255580019A21F /* Git_testTests.m */; };
+		876A95441A12599E0019A21F /* TestSubidaGit.m in Sources */ = {isa = PBXBuildFile; fileRef = 876A95431A12599E0019A21F /* TestSubidaGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		876A95321A1255580019A21F /* Git testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		876A95371A1255580019A21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876A95381A1255580019A21F /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		876A95421A12599E0019A21F /* TestSubidaGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSubidaGit.h; sourceTree = "<group>"; };
+		876A95431A12599E0019A21F /* TestSubidaGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSubidaGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				876A951E1A1255580019A21F /* AppDelegate.m */,
 				876A95231A1255580019A21F /* ViewController.h */,
 				876A95241A1255580019A21F /* ViewController.m */,
+				876A95421A12599E0019A21F /* TestSubidaGit.h */,
+				876A95431A12599E0019A21F /* TestSubidaGit.m */,
 				876A95261A1255580019A21F /* Main.storyboard */,
 				876A95291A1255580019A21F /* Images.xcassets */,
 				876A952B1A1255580019A21F /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876A95441A12599E0019A21F /* TestSubidaGit.m in Sources */,
 				876A95221A1255580019A21F /* Git_test.xcdatamodeld in Sources */,
 				876A951F1A1255580019A21F /* AppDelegate.m in Sources */,
 				876A95251A1255580019A21F /* ViewController.m in Sources */,
